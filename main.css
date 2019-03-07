@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navBar{
+    display: flex;
+    justify-content: space-around;
+}
+#grid{
+    display: flex;
+    background: linear-gradient(to right, #d00340, #e13128 30%, #f7680c);
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+}
+#grid .grid-wrapper .grid-one{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #grid .grid-wrapper .grid-one .grid-one-box1{
+    flex:1;
+    text-align: center;
+    margin:0.5rem;
+    border:1px solid #fbdbd1;
+    background-color: #d9d7d754;
+    
+  }
+  #grid .grid-wrapper .grid-one .grid-one-box2{
+    flex:1;
+    text-align: center;
+    margin:0.5rem;
+    border:1px solid #fbdbd1;
+    background-color: #d9d7d754;
+   
+  }
+  #grid .grid-wrapper .grid-one .grid-one-box3{
+    flex:1;
+    text-align: center;
+    margin:0.5rem;
+    border:1px solid #fbdbd1;
+    background-color: #d9d7d754;
+   
+  }
+  #grid .grid-wrapper .grid-one p{
+    color:#fbdbd1;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.7rem;
+  }
+  
+  #grid .grid-wrapper .grid-two{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #grid .grid-wrapper .grid-two .grid-two-box1{
+    flex:1;
+    text-align: center;
+    margin:0.5rem;
+    border:1px solid #fbdbd1;
+    background-color: #d9d7d754;
+   
+  }
+  #grid .grid-wrapper .grid-two .grid-two-box2{
+    flex:1;
+    text-align: center;
+    margin:0.5rem;
+    border:1px solid #fbdbd1;
+    background-color: #d9d7d754;
+   
+  }
+  #grid .grid-wrapper .grid-two p{
+    color:#fbdbd1;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.7rem;
+  }
